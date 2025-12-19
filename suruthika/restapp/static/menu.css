@@ -1,0 +1,71 @@
+body
+{
+    background-image: url('back4.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title
+{
+    position: relative;
+    top:0;
+    margin: left 5px;
+    font-size: 35px;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.link {
+  display: flex;
+  position: fixed;
+  top: 10;
+  justify-content: space-evenly;
+  width: 800px;
+  height: 55px;
+  font-size: 22px;
+  margin-left: 550px;
+}
+a {
+  text-decoration: none;
+  color: rgb(215, 241, 249);
+}
+.mainmenu
+{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+    padding: 20px;
+    background-size: 80%;
+    
+}
+
+.menu-item img 
+{
+  width: 200px;
+  height: 200px;
+  bottom: 400px;
+  
+}
+.mainmenu
+{
+    margin: 20px;
+    text-align:center;
+}
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: bisque;
+    color: rgb(6, 6, 6);
+    text-align: center;
+    padding: 5px;
+    left: 0;
+}
+h2
+{
+    color: aliceblue;
+}
+h4{
+    color: aliceblue;
+}
